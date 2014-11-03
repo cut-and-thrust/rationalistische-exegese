@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="a">Rationalistische Exegese</title>
+				<author>
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Heine</surname>
+					</persName>
+				</author>
+				<respStmt>
+					<resp>Kodiert und annotiert von</resp>
+					<name xml:id="LR">Lena Renz</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>http://www.zeno.org – Contumax GmbH &amp; Co. KG</publisher>
+				<pubPlace>Berlin und Weimar</pubPlace>
+				<date>1962</date>
+				<availability>
+					<licence target="http://www.zeno.org/Zeno/-/Lizenz%3A+Gemeinfrei">Gemeinfrei</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename>Heinrich</forename>
+								<surname>Heine</surname>
+							</persName>
+						</author>
+						<title level="a">Rationalistische Exegese</title>
+					</analytic>
+					<monogr>
+						<editor>
+							<persName>
+								<forename>Hans</forename>
+								<surname>Kaufmann</surname>
+							</persName>
+						</editor>
+						<title level="m">Heinrich Heine: Werke und Briefe in zehn Bänden</title>
+						<edition>2. Auflage, <date when="1972">1972</date></edition>
+						<imprint>
+							<publisher>Aufbau-Verlag</publisher>
+							<pubPlace>Berlin und Weimar</pubPlace>
+							<date when="1962">1962</date>
+						</imprint>
+						<extent>10 Bände</extent>
+						<biblScope unit="vol">2</biblScope>
+						<biblScope unit="pp" from="416" to="417">S. 416f.</biblScope>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Der alttestamentaliche Elia wurde laut Heine von Raben ernährt, indem er diese aß. So beschreibe die Bibel kein Wunder, und ähnlich sei man in Berlin gewohnt, nicht Tauben, ein Symbol des Heiligen Geistes, sondern Raben zu verspeisen–wohl ein Hinweis auf Religionskritik ebenso wie auf die vermeintlich schlechte Berliner Küche.</p>
+			</abstract>
+			<langUsage>
+				<language ident="de" usage="100">Deutsch.</language>
+			</langUsage>
+		</profileDesc>
+		<encodingDesc>
+			<tagsDecl>
+				<rendition xml:id="i" n="teibp:italic" scheme="css">font-style:italic</rendition>
+				<rendition xml:id="small-caps" n="teibp:small-caps" scheme="css">font-variant:small-caps</rendition>
+			</tagsDecl>
+			<projectDesc>
+				<p>Ein knappes und einfaches Beispiel zur Darlegung der grundsätzlichen Vertrautheit mit TEI auf der Grundlage der Guidelines (Version 2.7.0) des TEI-Konsortiums vom 16. September 2014.</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2014-10-23" who="#LR">Texterfassung; Markup.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="416"/>
+			<div type="poem" sample="complete">
+				<lg type="stanza" rhyme="abab">
+					<l>Nicht <emph rendition="#i">von</emph> Raben, nein <emph rendition="#i">mit</emph> <rhyme label="a">Raben</rhyme></l>
+					<l>Wurde 
+						<choice>
+							<orig><name type="person">Elias</name></orig>
+							<reg>Elia</reg>
+						</choice>
+					<rhyme label="b">ernähret</rhyme>–</l>
+					<l>Also ohne Wunder <rhyme label="a">haben</rhyme></l>
+					<l>Wir die Stelle
+						<note type="certainty" place="margin" resp="#LR">
+							<cit>
+								<quote>Da kam das Wort des <emph rendition="#small-caps"><name>Herrn</name></emph> zu ihm: Geh weg von hier und wende dich nach Osten und verbirg dich am Bach <name type="geogName">Krit</name>, der zum <name type="geogName">Jordan</name> fließt. Und du sollst aus dem Bach trinken und ich habe den Raben geboten, dass sie dich dort versorgen sollen. Er aber ging hin und tat nach dem Wort des <emph rendition="#small-caps"><name>Herrn</name></emph> und setzte sich nieder am Bach <name type="place">Krit</name>, der zum <name type="geogName">Jordan</name> fließt. Und die Raben brachten ihm Brot und Fleisch des Morgens und des Abends und er trank aus dem Bach.</quote>
+								<bibl>1 Kön 17, 2–6 LUT</bibl>
+							</cit>
+						</note>
+					 uns <rhyme label="b">erkläret</rhyme>.</l>
+				</lg>
+				<lg type="stanza" rhyme="caca">
+					<l n="5">Ja anstatt gebratner <rhyme label="c">Tauben</rhyme>,</l>
+					<l>Gab man ihm gebratne <rhyme label="a">Raben</rhyme>,</l>
+					<l>Wie wir deren selbst mit <rhyme label="c">Glauben</rhyme></l>
+					<l>Zu <name type="place">Berlin</name> gespeiset <rhyme label="a">haben</rhyme>.</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+</TEI>
